@@ -30,6 +30,12 @@ function calculate(operand1, operand2, operation) {
         case '*':
             uri += "?operation=multiply";
             break;
+        case '/':
+            uri += "?operation=divide";
+            break;
+        case '%':
+            uri += "?operation=modulus";
+            break;
 
         default:
             setError();

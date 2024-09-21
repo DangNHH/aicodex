@@ -15,6 +15,8 @@ exports.calculate = function(req, res) {
     'add':      function(a, b) { return Number(a) + Number(b) },
     'subtract': function(a, b) { return Number(a) - Number(b) },
     'multiply': function(a, b) { return Number(a) * Number(b) },
+    'divide':   function(a, b) { return Number(a) / Number(b) },
+    'modulus':  function(a, b) { return Number(a) % Number(b) },
   };
 
   /**
